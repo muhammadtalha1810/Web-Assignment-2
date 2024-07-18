@@ -1,0 +1,82 @@
+        <tr>
+          <td class="left-entry">
+            <img src="./images/img1.jpg" alt="First Image" style="width: 20px; display: block;">
+          </td>
+          <td class="table-entry">A Year Of Last Things</td>
+          <td class="table-entry">Michael Ondaatje</td>
+          <td class="table-entry">Rs 3,495.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">A Fate Inked In Blood</td>
+          <td class="table-entry">Danielle L. Jensen</td>
+          <td class="table-entry">Rs 3,495.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">The Big Fail</td>
+          <td class="table-entry">Bethany McLean</td>
+          <td class="table-entry">Rs 4,295.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">Stand Up Straight</td>
+          <td class="table-entry">Paul Nanson</td>
+          <td class="table-entry">Rs 3,095.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">The Everything Token</td>
+          <td class="table-entry">Steve Kaczynski</td>
+          <td class="table-entry">Rs 3,995.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">Impossible Monsters</td>
+          <td class="table-entry">Michael Taylor</td>
+          <td class="table-entry">Rs 3,995.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">The Girl Who Wasn't There</td>
+          <td class="table-entry">Jacqueline Wilson</td>
+          <td class="table-entry">Rs 3,095.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+
+
+
+
+
+        <tr>
+          <td class="left-entry">
+            <img src="./images/img1.jpg" alt="First Image" style="width: 20px; display: block;">
+          </td>
+          <td class="table-entry">A Year Of Last Things</td>
+          <td class="table-entry">Michael Ondaatje</td>
+          <td class="table-entry">Rs 3,495.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+
+
+        <div class="searched-book">
+          <img src="./images/img2.jpg" alt="Cover Page" class="searched-book-image">
+          <p class="searched-book-title">A Year Of Last Things</p>
+          <p class="searched-book-author">James Hilton</p>
+        </div>
