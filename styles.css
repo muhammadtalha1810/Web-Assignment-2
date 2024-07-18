@@ -1,0 +1,296 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  font-family:Tahoma, Geneva, Verdana, sans-serifs;
+}
+nav{
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(214, 214, 214);
+}
+#home-btn{
+  text-decoration: none;
+  text-transform: capitalize;
+  align-content: center;
+  color: darkblue;
+  font-weight: 600;
+  font-size: x-large;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+#logo{
+  width: 40px;
+  vertical-align: middle;
+}
+#home-text{
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav-btn{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: large;
+  margin-left: 20px;
+  vertical-align: middle;
+  color: darkblue;
+}
+.nav-btn:hover{
+  text-decoration: underline;
+}
+#search-box{
+  font-size: medium;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: auto;
+  top: 20px;
+  right: 100px;
+  position: fixed;
+  border: none;
+  padding: 5px 5px;
+  border-bottom: 1px solid black;
+  width: 200px;
+  transition: 300ms;
+}
+#search-box:focus{
+  outline: none;
+  width: 350px;
+}
+#search-container{
+  
+  position: fixed;
+  background-color: rgba(129, 124, 124, 0.74);
+  width: 100%;
+  height: 100%;
+  visibility:hidden;
+}
+header {
+  margin-top: 60px;
+  padding-top: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: 200;
+  padding-bottom: 70px;
+  background-color: beige;
+}
+#first-section{
+  width: 100%;
+  background-color: aliceblue;
+  padding: 60px 0px;
+}
+h2{
+  text-align: center;
+  font-family: Tahoma, Geneva, Verdana, sans-serifs;
+  padding-bottom: 20px;
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+#top-books-container{
+  display: block;
+  width: 75%;
+  margin: auto;
+  align-items: center;
+  padding: 30px;
+}
+.book-image{
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 20px rgb(194, 194, 194);
+  border-radius: 10px;
+  vertical-align: middle;
+}
+.book-image:hover{
+  cursor: pointer;
+  
+}
+#central-image{
+  margin-left: 9.375%;
+  margin-right: 9.375%;
+}
+.sec1text{
+  text-align: center;
+  font-size: medium;
+}
+table{
+  margin: 20px auto;
+  padding: 20px;
+  font-size: large;
+  border-spacing: 0px;
+}
+.table-entry{
+  border-top: 1px solid black;
+  padding: 8px 20px;
+  text-align: center;
+}
+.left-entry{
+  border-top: 1px solid black;
+  padding: 8px 20px 8px 0px;
+  text-align: center;
+}
+.right-entry{
+  border-top: 1px solid black;
+  padding: 8px 0px 8px 20px;
+  text-align: center;
+}
+#buynow-table{
+  font-size: large;
+  color: darkblue;
+  border: none;
+  background-color: transparent;
+}
+#buynow-table:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#view-books{
+  background: darkblue;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: large;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  display: block;
+  width: auto;
+  margin: auto;
+}
+#view-books:hover{
+  cursor: pointer;
+}
+#second-section{
+  width: 100%;
+  background-color:rgb(255, 244, 231);
+  padding: 60px 0px;
+}
+#about-us{
+  display: block;
+  width: 75%;
+  margin: auto;
+}
+#aboutus-container{
+  display: inline-block;
+  width: 40%;
+  margin-right: 9.5%;
+}
+.sub-headings{
+  text-transform: capitalize;
+  font-size: large;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.para-text{
+
+}
+#form{
+  display: inline-block;
+  width: 40%;
+  margin-left: 9.5%;
+  vertical-align: top;
+}
+.label{
+  display: block;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: 300;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#fname{
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#email{
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#message{
+  display: block;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  font-family: Tahoma, Geneva, Verdana, sans-serifs;
+  font-size: large;
+  width: 350px;
+  height: 150px;
+}
+#submit-btn{
+  background: darkblue;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: large;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+#submit-btn:hover{
+  cursor: pointer;
+}
+#third-section{
+  width: 100%;
+  background-color:beige;
+  padding: 60px 0px;
+}
+#reviws-container{
+  padding-top: 20px;
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+.customer-review-container{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+#center-review-container{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.customer-name{
+  font-size: large;
+  font-weight: 700;
+}
+.fullstar{
+  color: rgb(231, 198, 12);
+  font-size: xx-large;
+}
+.emptystar{
+  font-size: xx-large;
+  opacity: 40%;
+  
+}
+.ratings{
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.customer-review{
+  font-size: large;
+}
+footer{
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: 200;
+  padding: 20px;
+  margin-bottom: 40px;
+}

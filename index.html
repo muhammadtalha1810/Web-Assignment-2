@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Online Bookstore</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="#" id="home-btn">
+        <img id="logo" src="./images/logo.svg" alt="Logo" />
+        <span id="home-text">Online Bookstore</span>
+      </a>
+      <a href="#" class="nav-btn">Home</a>
+      <a href="#first-section" class="nav-btn">Books</a>
+      <a href="#second-section" class="nav-btn">About Us</a>
+      <input id="search-box" type="text" placeholder="Search books">
+    </nav>
+    <div id="search-container">
+      
+    </div>
+    
+    <header>Welcome to My Online Fictional Bookstore</header>
+    <div id="first-section">
+      <h2>Featured Books</h2>
+      <p class="sec1text">The most popular fiction books are shown below.</p>
+      <div id="top-books-container">
+        <img
+          class="book-image"
+          src="./images/img1.jpg"
+          alt="Cover Page of Monticello"
+        />
+        <img
+          class="book-image"
+          id="central-image"
+          src="./images/img2.jpg"
+          alt="Cover Page of Cloud Cuckoo Land"
+        />
+        <img
+          class="book-image"
+          src="./images/img3.jpg"
+          alt="Cover Page of Lauren Groff"
+        />
+      </div>
+      <p class="sec1text">Here is a list of popular fiction books available for sale.</p>
+      <table>
+        <tr>
+          <th class="table-header">Title</th>
+          <th class="table-header">Author</th>
+          <th class="table-header">Price</th>
+        </tr>
+        <tr>
+          <td class="left-entry">A Year Of Last Things</td>
+          <td class="table-entry">Michael Ondaatje</td>
+          <td class="table-entry">Rs 3,495.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">A Fate Inked In Blood</td>
+          <td class="table-entry">Danielle L. Jensen</td>
+          <td class="table-entry">Rs 3,495.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">The Big Fail</td>
+          <td class="table-entry">Bethany McLean</td>
+          <td class="table-entry">Rs 4,295.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">Stand Up Straight</td>
+          <td class="table-entry">Paul Nanson</td>
+          <td class="table-entry">Rs 3,095.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">The Everything Token</td>
+          <td class="table-entry">Steve Kaczynski</td>
+          <td class="table-entry">Rs 3,995.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">Impossible Monsters</td>
+          <td class="table-entry">Michael Taylor</td>
+          <td class="table-entry">Rs 3,995.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="left-entry">The Girl Who Wasn't There</td>
+          <td class="table-entry">Jacqueline Wilson</td>
+          <td class="table-entry">Rs 3,095.00</td>
+          <td class="right-entry">
+            <button id="buynow-table">Buy Now</button>
+          </td>
+        </tr>
+      </table>
+      <button id="view-books">View All Books</button>
+    </div>
+    
+    <div id="second-section">
+      <h2>About Us</h2>
+      <div id="about-us">
+        <div id="aboutus-container">
+          <h5 class="sub-headings">Who We Are</h5>
+          <p class="para-text">
+            Fictional Haven is a passion project born from a love of literature.
+            We are dedicated to bringing the best in fiction to readers around the
+            world. Our team of avid readers and literature enthusiasts handpick
+            every book to ensure a diverse and engaging collection.
+          </p>
+          <h5 class="sub-headings">Our Mission</h5>
+          <p class="para-text">
+            Our mission is to foster a love of reading by making it easy and
+            enjoyable to discover new and exciting fiction books. We strive to
+            create a welcoming space where readers can explore, connect, and
+            immerse themselves in the world of stories.
+          </p>
+          <h5 class="sub-headings">Our Values</h5>
+          <p class="para-text">
+            Our mission is to foster a love of reading by making it easy and
+            enjoyable to discover new and exciting fiction books. We strive to
+            create a welcoming space where readers can explore, connect, and
+            immerse themselves in the world of stories.
+          </p>
+        </div>
+        <form id="form" method="post">
+          <h5 class="sub-headings">Contact us</h5>
+          <label class="label" for="fname">Full Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="Name"
+            placeholder="Full Name"
+            required
+          />
+          <label class="label" for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="Email"
+            placeholder="abc@gmail.com"
+            required
+          />
+          <label class="label" for="message">Message</label>
+          <textarea
+            type="text"
+            id="message"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+          <input id="submit-btn" type="submit" value="Send Message">
+        </form>
+      </div>
+      
+    </div>
+    
+    <div id="third-section">
+      <h2>Customer Reviews</h2>
+      <div id="reviws-container">
+        <div class="customer-review-container">
+          <h5 class="customer-name">Emma Lawson</h5>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="emptystar" >★</span>
+          <span class="ratings">4/5</span>
+          <p class="customer-review">Fictional Haven has quickly become my go-to for finding new books. Their selection is fantastic, and I've discovered so many great reads I wouldn't have found otherwise. Highly recommend!</p>
+        </div>
+        <div class="customer-review-container" id="center-review-container">
+          <h5 class="customer-name">James Roberts</h5>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="ratings">5/5</span>
+          <p class="customer-review">I love the variety of genres available on Fictional Haven. The recommendations are spot on, and the customer service is excellent. It's a wonderful place for any book lover.</p>
+        </div>
+        <div class="customer-review-container">
+          <h5 class="customer-name">Sophia Martinez</h5>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="fullstar" >★</span>
+          <span class="emptystar" >★</span>
+          <span class="ratings">4/5</span>
+          <p class="customer-review">The curated collection at Fictional Haven is impressive. Every book I've picked up has been a winner. The site is easy to navigate, and the reviews from other readers are really helpful!</p>
+        </div>
+      </div>
+    </div>
+    <footer>© 2024 My Online Bookstore</footer>
+  </body>
+</html>
