@@ -8,17 +8,23 @@ $(document).ready(function () {
         $('#search-container').css('visibility', 'hidden');
         //document.getElementById('search-container').style.visibility = 'hidden';
     });
-    $('#search-box').change(function () { 
+    $('#search-box').keyup(function (event) { 
         //Content changes, do search
+        $('#searched-books').html("");
         var keyword = $(this).val();
         for(let i=0; i<books.length; i++)
         {
+            if(keyword == "")
+            {
+                break;
+            }
             var title = books[i].title;
-            if(title.includes(keyword))
+            if((title.toLowerCase()).includes(keyword.toLowerCase()))
             {
                 addBookInSearchList(books[i].title, books[i].author, books[i].imagePath);
             }
         }
+
     });
     $('#view-books').click(function () { 
         for(let i=5; i<books.length; i++)
@@ -52,6 +58,7 @@ function addBookInSearchList(title, author, imgSource) {
         <p class="searched-book-title">${title}</p>
         <p class="searched-book-author">${author}</p>
         `;
+        
     document.getElementById('searched-books').appendChild(newElem);
 }
 function addBookInList(title, author, price, imgSource) {

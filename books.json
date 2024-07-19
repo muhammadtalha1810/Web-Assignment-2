@@ -3,69 +3,69 @@
         "title": "A Year Of Last Things",
         "author": "Michael Ondaatje",
         "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "imagePath": "./images/img4.jpg"
     },
 
     {
-        "title": "A t Things",
-        "author": "Michael Ondaatje",
+        "title": "A Fate Inked In Blood",
+        "author": "Danielle L. Jensen",
         "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "imagePath": "./images/img5.jpg"
     },
 
     {
-        "title": "A Year Of Last Things",
-        "author": "Michael Ondaatje",
-        "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "title": "The Big Fail",
+        "author": "Bethany McLean",
+        "price": "Rs 4,295.00",
+        "imagePath": "./images/img6.jpg"
     },
 
     {
-        "title": "A Year Of Last Things",
-        "author": "Michael Ondaatje",
-        "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "title": "Stand Up Straight",
+        "author": "Paul Nanson",
+        "price": "Rs 3,095.00",
+        "imagePath": "./images/img7.jpg"
     },
 
     {
-        "title": "A Year Of Last Things",
-        "author": "Michael Ondaatje",
-        "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "title": "The Everything Token",
+        "author": "Steve Kaczynski",
+        "price": "Rs 3,995.00",
+        "imagePath": "./images/img8.jpg"
     },
 
     {
-        "title": "A Year Of Last Things",
-        "author": "Michael Ondaatje",
-        "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "title": "Impossible Monsters",
+        "author": "Michael Taylor",
+        "price": "Rs 3,995.00",
+        "imagePath": "./images/img9.jpg"
     },
 
     {
-        "title": "A Year Of Last Things",
-        "author": "Michael Ondaatje",
-        "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "title": "The Girl Who Wasn't There",
+        "author": "Jacqueline Wilson",
+        "price": "Rs 3,095.00",
+        "imagePath": "./images/img10.jpg"
     },
 
     {
-        "title": "A Year Of Last Things",
-        "author": "Michael Ondaatje",
-        "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "title": "House Rules Wild Cards",
+        "author": "George R.R. Martin",
+        "price": "Rs 4,595.00",
+        "imagePath": "./images/img11.jpg"
     },
 
     {
-        "title": "A Year Of Last Things",
-        "author": "Michael Ondaatje",
-        "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "title": "Night Watch",
+        "author": "Jayne Anne Phillips",
+        "price": "Rs 3,795.00",
+        "imagePath": "./images/img12.jpg"
     },
 
     {
-        "title": "A Year Of Last Things",
-        "author": "Michael Ondaatje",
-        "price": "Rs 3,495.00",
-        "imagePath": "./images/img3.jpg"
+        "title": "Navola",
+        "author": "Paolo Bacigalupi",
+        "price": "Rs 4,295.00",
+        "imagePath": "./images/img13.jpg"
     }
 ]
