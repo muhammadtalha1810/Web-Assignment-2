@@ -18,8 +18,29 @@
       <a href="#" class="nav-btn">Home</a>
       <a href="#first-section" class="nav-btn">Books</a>
       <a href="#second-section" class="nav-btn">About Us</a>
+      <button class="nav-btn" id="add-btn-nav">Add Book</button>
       <input id="search-box" type="text" placeholder="Search books">
     </nav>
+    <div id="Add-Book-container">
+      <div id="add-book">
+        <form  action="https://localhost:7015/api/books" method="post">
+          <Label for="book-id" class="label">Book ID</Label>
+          <input type="number" required name="id" id="book-id" placeholder="10" class="add-book-input">
+          <Label for="book-title" class="label">Book Title</Label>
+          <input type="text" required name="title" id="book-title" placeholder="Book Title" class="add-book-input">
+          <Label for="book-author" class="label">Book Author</Label>
+          <input type="text" required name="author" id="book-author" placeholder="Book Author" class="add-book-input">
+          <Label for="book-price" class="label">Book Price</Label>
+          <input type="text" required name="price" id="book-price" placeholder="Rs 9,999.00" class="add-book-input">
+          <Label for="book-imageurl" class="label">Book Image Url</Label>
+          <input type="text" required name="imageUrl" id="book-imageurl" placeholder="https://example.com/image" class="add-book-input">
+          <input type="submit" value="Add Book" id="add-book-btn">
+        </form>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+      
+      
+    </div>
     <div id="search-container">
       <div id="searched-books">
         

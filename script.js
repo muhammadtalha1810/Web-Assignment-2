@@ -2,6 +2,7 @@ var books;
 $(document).ready(function () {
     $('#search-box').focus(function () { 
         $('#search-container').css('visibility', 'visible');
+        $('#Add-Book-container').css('visibility', 'hidden');
         //document.getElementById('search-container').style.visibility = 'visible';
     });
     $('#search-box').blur(function () { 
@@ -21,7 +22,7 @@ $(document).ready(function () {
             var title = books[i].title;
             if((title.toLowerCase()).includes(keyword.toLowerCase()))
             {
-                addBookInSearchList(books[i].title, books[i].author, books[i].imagePath);
+                addBookInSearchList(books[i].title, books[i].author, books[i].imageUrl);
             }
         }
 
@@ -29,19 +30,27 @@ $(document).ready(function () {
     $('#view-books').click(function () { 
         for(let i=5; i<books.length; i++)
         {
-            addBookInList(books[i].title, books[i].author, books[i].price, books[i].imagePath);
+            addBookInList(books[i].title, books[i].author, books[i].price, books[i].imageUrl);
         }
         $(this).attr('disabled', 'true');
     });
+    $('#add-btn-nav').click(function () { 
+        $('#search-container').css('visibility', 'hidden');
+        $('#Add-Book-container').css('visibility', 'visible');
+    });
+    $('#cancel-btn').click(function () { 
+        $('#Add-Book-container').css('visibility', 'hidden');
+        
+    });
     $.ajax({
         type: "GET",
-        url: "./books.json",
+        url: "https://localhost:7015/api/books",
         dataType: "json",
         success: function (data) {
             books = data;
             for(let i=0; i<5; i++)
             {
-                addBookInList(books[i].title, books[i].author, books[i].price, books[i].imagePath);
+                addBookInList(books[i].title, books[i].author, books[i].price, books[i].imageUrl);
             }
         },
         error: function(error){
