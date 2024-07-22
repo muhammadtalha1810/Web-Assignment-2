@@ -68,6 +68,22 @@ nav{
   outline: none;
   width: 350px;
 }
+#notification-area{
+  max-width: 300px;
+  text-wrap: wrap;
+  height: auto;
+  padding: 13px 20px;
+  width: auto;
+  position: fixed;
+  top: 110px;
+  right: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-size: medium;
+  box-shadow: 0px 0px 20px rgb(194, 194, 194);
+  visibility: hidden;
+}
 #Add-Book-container{
   padding-top: 30px;
   padding-bottom: 60px;
@@ -84,7 +100,7 @@ nav{
   margin: auto;
   padding: 40px;
   background-color: #fff;
-  border: 1px solid black;
+  
   border-radius: 20px;
   
 }
@@ -104,12 +120,13 @@ nav{
   border: none;
   border-radius: 30px;
   margin-top: 20px;
+  margin: 20px auto;
 }
 #add-book-btn:hover{
   cursor: pointer;
 }
 #cancel-btn{
-  
+  display: block;
   background: darkblue;
   color: #fff;
   text-transform: capitalize;
@@ -117,7 +134,7 @@ nav{
   padding: 10px 30px;
   border: none;
   border-radius: 30px;
-  margin-top: 20px;
+  margin: auto;
 }
 #cancel-btn:hover{
   cursor: pointer;

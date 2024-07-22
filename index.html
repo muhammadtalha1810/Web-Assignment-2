@@ -21,9 +21,10 @@
       <button class="nav-btn" id="add-btn-nav">Add Book</button>
       <input id="search-box" type="text" placeholder="Search books">
     </nav>
+    <span id="notification-area">The book is added to library</span>
     <div id="Add-Book-container">
       <div id="add-book">
-        <form  action="https://localhost:7015/api/books" method="post">
+        <form  action="https://localhost:7015/api/books" method="post" id="add-book-form">
           <Label for="book-id" class="label">Book ID</Label>
           <input type="number" required name="id" id="book-id" placeholder="10" class="add-book-input">
           <Label for="book-title" class="label">Book Title</Label>
