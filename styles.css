@@ -107,8 +107,9 @@ nav{
 .add-book-input{
   font-size: large;
   padding: 10px;
-  border-radius: 10px;
-  border: 2px solid black;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
 }
 #add-book-btn{
   display: block;
