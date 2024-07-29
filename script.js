@@ -99,7 +99,7 @@ function addBookInList(title, author, price, imgSource) {
           </td>
           <td class="table-entry">${title}</td>
           <td class="table-entry">${author}</td>
-          <td class="table-entry">${price}</td>
+          <td class="table-entry">Rs ${price}</td>
           <td class="right-entry">
             <button id="buynow-table">Buy Now</button>
         </td>
